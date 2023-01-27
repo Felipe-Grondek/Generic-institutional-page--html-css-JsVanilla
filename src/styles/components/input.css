@@ -1,0 +1,26 @@
+.input-default {
+    height: 60px;
+    width: 448px;
+    padding: 14px 20px;
+    background-color: var(--gray-1);
+    border: 1px solid var(--gray-1);
+    color: var(--gray-6);
+    transition: 0.3s ease;
+    font-size: 16px;
+}
+
+.input-default:hover {
+    transition: 0.3s ease;
+    background-color: var(--gray-3);
+}
+
+.input-default:active {
+    transition: 0.3s ease;
+    background-color: var(--gray-3);
+    border-color: var(--primary-color-2);
+}
+
+.input-default::placeholder {
+    color: var(--gray-4);
+    font-size: 16px;
+}
